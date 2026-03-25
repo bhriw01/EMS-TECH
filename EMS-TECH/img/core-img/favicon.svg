@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- fundo escuro arredondado -->
+  <rect width="64" height="64" rx="12" fill="#0f172a"/>
+
+  <!-- corpo/cabeça da águia -->
+  <ellipse cx="32" cy="36" rx="16" ry="14" fill="#e2e8f0"/>
+
+  <!-- testa escura (plumagem) -->
+  <ellipse cx="32" cy="24" rx="14" ry="10" fill="#1e293b"/>
+
+  <!-- olho esquerdo -->
+  <ellipse cx="24" cy="29" rx="5" ry="5.5" fill="#00d2ff"/>
+  <ellipse cx="24" cy="29" rx="3" ry="3.5" fill="#0f172a"/>
+  <circle cx="25" cy="27.5" r="1" fill="white"/>
+
+  <!-- olho direito -->
+  <ellipse cx="40" cy="29" rx="5" ry="5.5" fill="#00d2ff"/>
+  <ellipse cx="40" cy="29" rx="3" ry="3.5" fill="#0f172a"/>
+  <circle cx="41" cy="27.5" r="1" fill="white"/>
+
+  <!-- sobrancelha/cera esquerda -->
+  <path d="M19 24 Q24 20 28 23" stroke="#00d2ff" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- sobrancelha/cera direita -->
+  <path d="M45 24 Q40 20 36 23" stroke="#00d2ff" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- bico - parte superior -->
+  <path d="M28 37 Q32 33 36 37 Q34 42 32 44 Q30 42 28 37Z" fill="#f59e0b"/>
+  <!-- gancho do bico -->
+  <path d="M30 41 Q32 46 34 41" fill="#d97706" stroke="none"/>
+
+  <!-- asas laterais (pequenas sugestões) -->
+  <path d="M16 38 Q10 34 12 42 Q16 44 18 41Z" fill="#94a3b8"/>
+  <path d="M48 38 Q54 34 52 42 Q48 44 46 41Z" fill="#94a3b8"/>
+
+  <!-- plumagem branca no peito -->
+  <ellipse cx="32" cy="44" rx="8" ry="5" fill="#f1f5f9"/>
+</svg>
